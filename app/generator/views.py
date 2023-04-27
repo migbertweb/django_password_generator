@@ -8,3 +8,7 @@ def home(request):
 
 def about(request):
     return render(request, 'generator/about.html')
+
+
+def password(request):
+    return render(request, 'generator/password.html')
